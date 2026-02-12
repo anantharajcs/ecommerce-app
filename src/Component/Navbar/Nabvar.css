@@ -1,0 +1,102 @@
+.navbar{
+    padding: 30px;
+    padding-inline: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.link ul li {
+    list-style : none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.link a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.logo h2{
+    font-size: 1.5rem;
+    font-family: 'Antonio', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav-icon-wrapper{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.nav-icon{
+    font-size: 30px;
+    margin-right: -6px;
+}
+
+.nav-qyt{
+    background-color: red;
+    color: white;
+    margin-top: -5px;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+      padding: 15px 20px;
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    
+    .link ul {
+      justify-content: center;
+      gap: 15px;
+      padding: 0;
+    }
+  
+    .link ul li {
+      text-decoration: none;
+      font-size: 14px;
+      list-style: none;
+    }
+  
+
+    .logo h2 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    
+    .nav-icon-wrapper {
+      align-self: flex-end;
+    }
+  
+    .nav-icon {
+      font-size: 26px;
+    }
+  
+    .nav-qyt {
+      width: 18px;
+      height: 18px;
+      font-size: 11px;
+    }
+  }
+  @media (max-width:320px) {
+    
+  }

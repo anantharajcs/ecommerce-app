@@ -1,0 +1,28 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 3rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 2px solid #666;
+}
+.footer-socials{
+    display: flex;
+    gap: 10px;
+}
+.footer-icons{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+@media (max-width:320px) {
+    .footer{
+        width: 100%;
+    }
+}
