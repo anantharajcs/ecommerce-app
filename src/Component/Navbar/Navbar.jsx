@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { BiCart } from "react-icons/bi";
-import './Nabvar.css'
+import './Navbar.css'
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../ShopContext/ShopContext';
 

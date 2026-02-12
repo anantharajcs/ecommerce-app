@@ -7,7 +7,7 @@ import ShopContextProvider from './Component/ShopContext/ShopContext'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ecommerce-app/">
     <ShopContextProvider>
     <App />
     </ShopContextProvider>
