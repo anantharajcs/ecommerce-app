@@ -84,6 +84,18 @@
     .hero-content h1{
       font-size: 5.5rem;
     }
+     .hero-img{
+      margin-top: -7rem;
+    }
+
+    @media (max-width: 400px) {
+      .hero-content h1{
+      font-size: 4.5rem;
+    }
+    .hero-img{
+      margin-top: -7rem;
+    }
+    }
     
   }
   @media (max-width: 350px) {
