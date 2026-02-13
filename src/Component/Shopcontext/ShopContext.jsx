@@ -39,7 +39,7 @@ const ShopContextProvider = ({children}) => {
       ))
     } else {
       setCart([...cart, { ...product, id, amount: 1 }])
-      toast.success("Product added to cart")
+      toast.success("Product Added To Cart")
     }
   }
   const clearCart = () => {
@@ -52,7 +52,7 @@ const ShopContextProvider = ({children}) => {
       return item.id !==id;
     })
     setCart(newCart);
-    toast.success("Product removed successfully")
+    toast.success("Product Removed SuccessFully")
   }
 
   const increaseQuantity = (id) => {

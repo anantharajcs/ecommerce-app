@@ -11,6 +11,8 @@
     background-color: #e5e2e2;
     align-items: center;
     object-fit: contain;
+     
+    
    }
 
 .offer-image {
@@ -21,7 +23,7 @@
 
 }
 .left-content{
-    font-family: 'Antonio', sans-serif; 
+   font-family: 'Antonio', sans-serif; 
    color: black;
    margin-right: 30px;
    margin-left: 60px;

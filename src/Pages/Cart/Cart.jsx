@@ -13,7 +13,7 @@ const Cart = () => {
         <div className="cart-left">
           <div className="cart-header">
             <h1>Shopping Cart</h1>
-            <h1>items{quantity}</h1>
+            <h1>items({quantity})</h1>
             <FiTrash2 onClick  = {clearCart} className="delete-btn"/>
           </div>
           <div className="cart-header">

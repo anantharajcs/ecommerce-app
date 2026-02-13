@@ -7,6 +7,7 @@
 }
 .details-right{
     padding: 70px;
+    font-family: 'Antonio', sans-serif;
 }
 .details-right h3{
     font-size: 30px;
@@ -27,6 +28,7 @@
     border: none;
     background-color: red;
     color: wheat;
+    font-weight: 600;
 }
 
 @media (max-width: 768px){
