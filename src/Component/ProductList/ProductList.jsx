@@ -15,7 +15,7 @@ const ProductList = () => {
 
       <div className="filter-buttons">
         <button onClick={() => setCategory ('all')}>All</button>
-        <button onClick={() => setCategory('boys')}>Boys</button>
+        <button onClick={() => setCategory('boys')}>Mens</button>
         <button onClick={() => setCategory('ladies')}>Womens</button>
         <button onClick={() => setCategory('baby boy')}>Boy Kids</button>
         <button onClick={() => setCategory('baby girl')}>Girl Kids</button>
