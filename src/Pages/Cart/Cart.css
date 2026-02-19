@@ -99,7 +99,7 @@
 
 /*responaive design*/
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 .cart-container{
     display: flex;
     justify-content: space-between;

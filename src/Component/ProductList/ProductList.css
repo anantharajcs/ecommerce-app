@@ -38,7 +38,7 @@
 
 .product-display{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     margin-top: 40px;
     font-family: 'Antonio', sans-serif;
@@ -83,6 +83,23 @@
     cursor: pointer;
     font-weight: bold;
 }
+@media (max-width: 1024px){
+
+    .product-list{
+        max-width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .product-list h2{
+        font-size: 2.4rem;
+    }
+
+    .product-display{
+        gap: 18px;
+    }
+}
+
 @media (max-width: 430px) {
     .product-list h2{
       font-size: 2rem;
